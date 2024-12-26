@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualizar Usuario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Actualizar Usuario</h1>
+  <form id="userUpdateForm" enctype="multipart/form-data">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="passwordAnterior">Contraseña Anterior:</label>
+    <input type="password" id="passwordAnterior" name="passwordAnterior" required><br><br>
+
+    <label for="passwordNueva">Nueva Contraseña:</label>
+    <input type="password" id="passwordNueva" name="passwordNueva"><br><br>
+
+    <label for="imagen">Imagen de Perfil:</label>
+    <input type="file" id="imagen" name="imagen"><br><br>
+
+    <button type="submit">Actualizar</button>
+  </form>
+  <script src="formUpdateScript.js"></script>
+</body>
+</html>

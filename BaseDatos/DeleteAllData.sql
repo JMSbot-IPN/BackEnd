@@ -1,0 +1,4 @@
+USE BaseUsuario;
+
+DELETE FROM Usuarios;
+ALTER TABLE Usuarios AUTO_INCREMENT = 0;

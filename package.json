@@ -1,5 +1,5 @@
 {
-  "name": "crud_api_para_usuarios",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Aplicacion de backend con express y sequelize",
   "main": "server.js",
